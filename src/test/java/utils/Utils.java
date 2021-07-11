@@ -46,8 +46,8 @@ public class Utils {
 
         TakesScreenshot scrShot =((TakesScreenshot)driver);
         File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
-        String timestamp = new SimpleDateFormat("yyyy_MM_dd__hh_mm_ss").format(new Date());
-        File DestFile= new File(System.getProperty("user.dir") +"\\images\\" + "" + fileName + "_" + timestamp);
+        String timestamp = new SimpleDateFormat("HH_mm_ss_dd_MM_yyyy").format(new Date());
+        File DestFile= new File(System.getProperty("user.dir") +"\\images\\" + "\\" + fileName + "\\" + timestamp + ".jpg");
         FileUtils.copyFile(SrcFile, DestFile);
     }
 

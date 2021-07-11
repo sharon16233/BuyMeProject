@@ -1,1 +1,90 @@
 21/07/11 19:34:20 ERROR utils.Browser: Couldn't initialize web driver, only Chrome is an available browser
+21/07/11 21:39:29 INFO tests.Test_Registration: Begin test registrate to BuyMe ...
+21/07/11 21:40:53 INFO tests.Test_Registration: Begin test registrate to BuyMe ...
+21/07/11 21:40:54 INFO tests.Test_Registration: Login page displayed.
+21/07/11 21:49:12 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 21:49:13 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 21:49:13 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 21:54:18 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 21:54:18 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 21:54:19 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 21:54:20 INFO tests.Test_Registration: Success.
+21/07/11 21:55:00 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 21:55:01 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 21:55:01 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 21:55:02 INFO tests.Test_Registration: Success.
+21/07/11 21:56:10 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 21:56:10 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 21:56:11 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 21:56:12 INFO tests.Test_Registration: Success.
+21/07/11 22:04:49 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:04:49 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:04:50 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:04:51 ERROR pages.BasePage: Error finding whether the element mail already exists messageis displayed.
+21/07/11 22:06:07 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:06:08 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:06:08 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:06:09 ERROR pages.BasePage: Error finding whether the element 'mail already exists message' is displayed.
+21/07/11 22:08:38 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:08:38 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:08:39 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:08:40 ERROR pages.BasePage: Error finding whether the element 'mail already exists message' is displayed.
+21/07/11 22:10:59 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:10:59 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:11:00 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:11:01 ERROR pages.BasePage: Error finding whether the element 'mail already exists message' is displayed.
+21/07/11 22:12:47 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:12:48 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:12:48 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:12:51 INFO tests.Test_Registration: Test passed successfully
+21/07/11 22:13:26 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:13:26 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:13:27 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:13:30 ERROR pages.BasePage: Error finding whether the element 'mail already exists message' is displayed.
+21/07/11 22:14:13 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:14:13 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:14:13 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:14:17 INFO tests.Test_Registration: Test passed successfully
+21/07/11 22:15:42 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:15:43 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:15:43 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:15:47 INFO tests.Test_Registration: Test passed successfully
+21/07/11 22:17:07 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:17:07 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:17:07 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:17:11 INFO tests.Test_Registration: Test passed successfully
+21/07/11 22:20:47 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:20:47 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:20:47 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:20:51 INFO tests.Test_Registration: Test passed successfully
+21/07/11 22:22:55 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:22:55 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:22:56 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:23:35 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:23:36 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:23:36 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:24:27 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:24:28 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:24:28 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:25:48 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:25:49 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:25:49 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:25:53 INFO tests.Test_Registration: Test passed successfully
+21/07/11 22:27:21 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:27:21 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:27:22 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:28:21 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:28:22 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:28:22 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:28:25 INFO tests.Test_Registration: Test passed successfully
+21/07/11 22:37:10 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:37:10 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:37:10 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:37:14 INFO tests.Test_Registration: Test passed successfully
+21/07/11 22:38:36 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:38:36 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:38:37 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:39:28 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/11 22:39:28 INFO tests.Test_Registration: Login page is displayed.
+21/07/11 22:39:29 INFO tests.Test_Registration: Registration page is displayed.
+21/07/11 22:39:32 INFO tests.Test_Registration: Test passed successfully
