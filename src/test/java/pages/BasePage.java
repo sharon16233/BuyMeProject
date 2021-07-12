@@ -26,7 +26,7 @@ public class BasePage {
     public void clickOnElement(WebElement element, String elementName) throws Exception {
         try {
             js.executeScript("arguments[0].scrollIntoView(true);", element);
-            wait.until(ExpectedConditions.elementToBeClickable(element));
+            //wait.until(ExpectedConditions.elementToBeClickable(element));
             element.click();
             logger.info(elementName + " was clicked successfully.");
         } catch (Exception e) {

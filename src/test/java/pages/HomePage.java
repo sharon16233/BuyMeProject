@@ -2,6 +2,7 @@ package pages;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,19 +14,19 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//span[contains(text(),'כניסה')]")
     WebElement entranceButton;
 
-    @FindBy(css = "[class='ember-view dropdown solid']")
+    @FindBy(xpath = "//span[contains(text(),'סכום')]")
     WebElement myAccountDropList;
 
-    @FindBy(xpath = "//header[@class='m-page-header']//select[1]")
+    @FindBy(xpath = "(//a[@class='chosen-single'])[1]")
     WebElement amountDropList;
 
-    @FindBy(xpath = "//header[@class='m-page-header']//select[2]")
+    @FindBy(xpath = "(//a[@class='chosen-single'])[2]")
     WebElement areaDropList;
 
-    @FindBy(xpath = "//header[@class='m-page-header']//select[3]")
+    @FindBy(xpath = "(//a[@class='chosen-single'])[3]")
     WebElement categoryDropList;
 
-    @FindBy(id = "ember1663")
+    @FindBy(css = "[class='ui-btn search ember-view']")
     WebElement searchButton;
 
     public void clickOnEntranceButton() throws Exception {
@@ -36,8 +37,26 @@ public class HomePage extends BasePage {
         return isElementDisplayed(myAccountDropList, "My account drop list");
     }
 
-    public void chooseAmountFromDropList(String value) throws Exception {
-        selectFromDropList(amountDropList, "Amount drop list", value);
+    public void clickOnAmountDropList() throws Exception {
+        clickOnElement(amountDropList, "Amount droplist");
+    }
+
+    public void clickOnAreaDropList() throws Exception {
+        clickOnElement(areaDropList, "Area droplist");
+    }
+
+    public void clickOnCategoryDropList() throws Exception {
+        clickOnElement(categoryDropList, "Category droplist");
+    }
+
+    public void clickOnGiftSearchButton() throws Exception {
+        clickOnElement(searchButton, "Gift search button");
+    }
+
+    public void chooseValueFromDropList() {
+        pressOnKeyboard(Keys.DOWN);
+        pressOnKeyboard(Keys.DOWN);
+        pressOnKeyboard(Keys.ENTER);
     }
 
     public HomePage(WebDriver driver) {

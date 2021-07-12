@@ -7,19 +7,19 @@ import org.openqa.selenium.support.PageFactory;
 
 public class RegistrationPage extends BasePage {
 
-    @FindBy(id = "ember1432")
+    @FindBy(css = "[placeholder='שם פרטי']")
     WebElement nameField;
 
-    @FindBy(id = "ember1435")
+    @FindBy(css = "[placeholder='מייל']")
     WebElement emailField;
 
-    @FindBy(id = "ember1438")
+    @FindBy(css = "[placeholder='סיסמה']")
     WebElement passwordField;
 
-    @FindBy(id = "ember1441")
+    @FindBy(css = "[placeholder='אימות סיסמה']")
     WebElement confirmPasswordField;
 
-    @FindBy(id = "ember1443")
+    @FindBy(css = "[gtm='הרשמה ל-BUYME']")
     WebElement registrationButton;
 
     @FindBy(xpath = "//span[contains(text(),'הרשמה ל-BUYME')]")

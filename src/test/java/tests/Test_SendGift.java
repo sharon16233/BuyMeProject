@@ -5,6 +5,7 @@ import org.apache.log4j.Logger;
 import org.junit.Assert;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.Keys;
 import pages.HomePage;
 import pages.LoginPage;
 import pages.RegistrationPage;
@@ -39,7 +40,16 @@ public class Test_SendGift extends Utils {
         Assert.assertTrue(homePage.isLoggedIn());
         logger.info("Login passed successfully.");
 
-        homePage.chooseAmountFromDropList("1");
+        homePage.clickOnAmountDropList();
+        homePage.chooseValueFromDropList();
+        logger.info("Amount was chosen.");
+        homePage.clickOnAreaDropList();
+        homePage.chooseValueFromDropList();
+        logger.info("Area was chosen.");
+        homePage.clickOnCategoryDropList();
+        homePage.chooseValueFromDropList();
+        logger.info("Category was chosen.");
+        homePage.clickOnGiftSearchButton();
 
 
     }

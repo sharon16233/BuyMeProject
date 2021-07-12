@@ -11,16 +11,16 @@ import sun.awt.windows.WBufferStrategy;
 public class LoginPage extends BasePage {
 
 
-    @FindBy(css = "[data-ember-action='1397']")
+    @FindBy(css = "[class='text-link theme']")
     WebElement registrationButton;
 
-    @FindBy(id = "ember1408")
+    @FindBy(css = "[placeholder='מייל']")
     WebElement emailField;
 
-    @FindBy(id = "ember1411")
+    @FindBy(css = "[placeholder='סיסמה']")
     WebElement passwordField;
 
-    @FindBy(id = "ember1428")
+    @FindBy(css = "[gtm='כניסה ל-BUYME']")
     WebElement submitButton;
 
     @FindBy(css = "[class='bm-h1']")
