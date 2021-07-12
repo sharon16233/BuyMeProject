@@ -88,3 +88,204 @@
 21/07/11 22:39:28 INFO tests.Test_Registration: Login page is displayed.
 21/07/11 22:39:29 INFO tests.Test_Registration: Registration page is displayed.
 21/07/11 22:39:32 INFO tests.Test_Registration: Test passed successfully
+21/07/12 18:56:25 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/12 18:56:26 INFO pages.BasePage: entrance buttonwas clicked successfully
+21/07/12 18:56:26 INFO tests.Test_Registration: Login page is displayed.
+21/07/12 18:56:26 INFO pages.BasePage: registration Buttonwas clicked successfully
+21/07/12 18:56:26 INFO tests.Test_Registration: Registration page is displayed.
+21/07/12 18:56:26 INFO pages.BasePage: Text was successfully written into name field
+21/07/12 18:56:27 INFO pages.BasePage: Text was successfully written into email field
+21/07/12 18:56:27 INFO pages.BasePage: Text was successfully written into password field
+21/07/12 18:56:27 INFO pages.BasePage: Text was successfully written into confirmPassword field
+21/07/12 18:56:27 INFO pages.BasePage: registration buttonwas clicked successfully
+21/07/12 18:56:30 INFO tests.Test_Registration: Test 'Register to BuyMe' passed successfully
+21/07/12 18:58:01 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/12 18:58:02 INFO pages.BasePage: entrance button was clicked successfully
+21/07/12 18:58:02 INFO tests.Test_Registration: Login page is displayed.
+21/07/12 18:58:02 INFO pages.BasePage: registration Button was clicked successfully
+21/07/12 18:58:02 INFO tests.Test_Registration: Registration page is displayed.
+21/07/12 18:58:02 INFO pages.BasePage: Text was successfully written into name field
+21/07/12 18:58:03 INFO pages.BasePage: Text was successfully written into email field
+21/07/12 18:58:03 INFO pages.BasePage: Text was successfully written into password field
+21/07/12 18:58:03 INFO pages.BasePage: Text was successfully written into confirmPassword field
+21/07/12 18:58:03 INFO pages.BasePage: registration button was clicked successfully
+21/07/12 18:58:06 INFO tests.Test_Registration: Test 'Register to BuyMe' passed successfully
+21/07/12 19:27:47 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 19:27:48 INFO pages.BasePage: entrance button was clicked successfully
+21/07/12 19:27:48 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 19:27:48 INFO pages.BasePage: Text was successfully written into email field
+21/07/12 19:27:48 INFO pages.BasePage: Text was successfully written into password
+21/07/12 19:27:48 INFO pages.BasePage: submit login button was clicked successfully
+21/07/12 19:27:49 ERROR pages.BasePage: Error finding whether the element 'My account drop list' is displayed.
+21/07/12 19:28:19 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 19:28:19 INFO pages.BasePage: entrance button was clicked successfully
+21/07/12 19:28:20 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 19:28:20 INFO pages.BasePage: Text was successfully written into email field
+21/07/12 19:28:20 INFO pages.BasePage: Text was successfully written into password
+21/07/12 19:28:20 INFO pages.BasePage: submit login button was clicked successfully
+21/07/12 19:28:23 ERROR pages.BasePage: Error finding whether the element 'My account drop list' is displayed.
+21/07/12 19:30:35 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 19:30:35 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 19:30:35 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 19:30:36 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 19:30:36 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 19:30:36 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 19:30:38 INFO tests.Test_SendGift: Login passed successfully.
+21/07/12 19:31:18 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 19:31:19 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 19:31:19 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 19:31:19 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 19:31:19 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 19:31:20 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 19:31:20 ERROR pages.BasePage: Error finding whether the element 'My account drop list' is displayed.
+21/07/12 19:31:36 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 19:31:36 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 19:31:36 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 19:31:37 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 19:31:37 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 19:31:37 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 19:31:39 INFO tests.Test_SendGift: Login passed successfully.
+21/07/12 19:48:40 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/12 19:48:41 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 19:48:41 INFO tests.Test_Registration: Login page is displayed.
+21/07/12 19:48:41 INFO pages.BasePage: registration Button was clicked successfully.
+21/07/12 19:48:41 INFO tests.Test_Registration: Registration page is displayed.
+21/07/12 19:48:42 INFO pages.BasePage: Text was successfully written into name field.
+21/07/12 19:48:42 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 19:48:42 INFO pages.BasePage: Text was successfully written into password field.
+21/07/12 19:48:42 INFO pages.BasePage: Text was successfully written into confirmPassword field.
+21/07/12 19:48:42 INFO pages.BasePage: registration button was clicked successfully.
+21/07/12 19:48:45 INFO tests.Test_Registration: Test 'Register to BuyMe' passed successfully
+21/07/12 19:51:10 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/12 19:51:10 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 19:51:10 INFO tests.Test_Registration: Login page is displayed.
+21/07/12 19:51:11 INFO pages.BasePage: registration Button was clicked successfully.
+21/07/12 19:51:11 INFO tests.Test_Registration: Registration page is displayed.
+21/07/12 19:51:11 INFO pages.BasePage: Text was successfully written into name field.
+21/07/12 19:51:11 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 19:51:11 INFO pages.BasePage: Text was successfully written into password field.
+21/07/12 19:51:12 INFO pages.BasePage: Text was successfully written into confirmPassword field.
+21/07/12 19:51:12 INFO pages.BasePage: registration button was clicked successfully.
+21/07/12 19:51:14 INFO tests.Test_Registration: Test 'Register to BuyMe' passed successfully
+21/07/12 19:51:30 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/12 19:51:31 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 19:51:31 INFO tests.Test_Registration: Login page is displayed.
+21/07/12 19:51:31 INFO pages.BasePage: registration Button was clicked successfully.
+21/07/12 19:52:16 INFO tests.Test_Registration: Registration page is displayed.
+21/07/12 19:52:18 INFO pages.BasePage: Text was successfully written into name field.
+21/07/12 19:52:20 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 19:52:21 INFO pages.BasePage: Text was successfully written into password field.
+21/07/12 19:52:23 INFO pages.BasePage: Text was successfully written into confirmPassword field.
+21/07/12 19:52:25 INFO pages.BasePage: registration button was clicked successfully.
+21/07/12 19:52:36 INFO tests.Test_Registration: Test 'Register to BuyMe' passed successfully
+21/07/12 19:57:25 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 19:57:26 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 19:57:26 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 19:57:26 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 19:57:26 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 19:57:26 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 19:57:29 INFO tests.Test_SendGift: Login passed successfully.
+21/07/12 19:57:29 ERROR pages.BasePage: Could not select 100-199 ש"ח from Drop list.
+21/07/12 20:02:35 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 20:02:35 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 20:02:35 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 20:02:36 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 20:02:36 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 20:02:36 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 20:02:38 INFO tests.Test_SendGift: Login passed successfully.
+21/07/12 20:02:39 ERROR pages.BasePage: Could not select from Amount drop list.
+21/07/12 20:05:05 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 20:05:05 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 20:05:05 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 20:05:05 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 20:05:05 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 20:05:06 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 20:05:08 INFO tests.Test_SendGift: Login passed successfully.
+21/07/12 20:05:09 ERROR pages.BasePage: Could not select from Amount drop list.
+21/07/12 20:06:02 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 20:06:02 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 20:06:02 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 20:06:02 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 20:06:03 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 20:06:03 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 20:06:05 INFO tests.Test_SendGift: Login passed successfully.
+21/07/12 20:08:48 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 20:08:49 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 20:08:49 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 20:08:49 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 20:08:49 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 20:08:50 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 20:08:52 INFO tests.Test_SendGift: Login passed successfully.
+21/07/12 20:08:52 ERROR pages.BasePage: Could not select from Amount drop list.
+21/07/12 20:09:23 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 20:09:23 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 20:09:24 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 20:09:24 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 20:09:24 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 20:09:24 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 20:09:26 INFO tests.Test_SendGift: Login passed successfully.
+21/07/12 20:14:26 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 20:14:26 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 20:14:26 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 20:14:26 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 20:14:27 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 20:14:27 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 20:14:29 INFO tests.Test_SendGift: Login passed successfully.
+21/07/12 20:27:55 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 20:27:55 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 20:27:55 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 20:27:56 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 20:27:56 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 20:27:56 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 20:27:58 INFO tests.Test_SendGift: Login passed successfully.
+21/07/12 20:27:59 ERROR pages.BasePage: Could not select from Amount drop list.
+21/07/12 20:29:39 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 20:29:39 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 20:29:39 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 20:29:40 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 20:29:40 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 20:29:40 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 20:29:42 INFO tests.Test_SendGift: Login passed successfully.
+21/07/12 20:38:21 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 20:38:22 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 20:38:22 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 20:38:22 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 20:38:22 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 20:38:23 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 20:38:25 INFO tests.Test_SendGift: Login passed successfully.
+21/07/12 20:38:36 ERROR pages.BasePage: Could not select from Amount drop list.
+21/07/12 20:39:11 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 20:39:11 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 20:39:12 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 20:39:12 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 20:39:12 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 20:39:12 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 20:39:14 INFO tests.Test_SendGift: Login passed successfully.
+21/07/12 20:41:08 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 20:41:08 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 20:41:08 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 20:41:08 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 20:41:08 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 20:41:09 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 20:41:11 INFO tests.Test_SendGift: Login passed successfully.
+21/07/12 20:41:59 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 20:42:00 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 20:42:00 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 20:42:00 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 20:42:00 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 20:42:00 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 20:42:03 INFO tests.Test_SendGift: Login passed successfully.
+21/07/12 20:45:03 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 20:45:03 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 20:45:04 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 20:45:04 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 20:45:04 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 20:45:04 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 20:45:06 INFO tests.Test_SendGift: Login passed successfully.
+21/07/12 20:48:30 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/12 20:48:30 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/12 20:48:30 INFO tests.Test_SendGift: Login page is displayed.
+21/07/12 20:48:30 INFO pages.BasePage: Text was successfully written into email field.
+21/07/12 20:48:30 INFO pages.BasePage: Text was successfully written into password.
+21/07/12 20:48:31 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/12 20:48:33 INFO tests.Test_SendGift: Login passed successfully.

@@ -1,10 +1,12 @@
 package pages;
 
+import io.reactivex.rxjava3.internal.operators.observable.BlockingObservableLatest;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Utils;
 
@@ -26,9 +28,10 @@ public class BasePage {
             js.executeScript("arguments[0].scrollIntoView(true);", element);
             wait.until(ExpectedConditions.elementToBeClickable(element));
             element.click();
+            logger.info(elementName + " was clicked successfully.");
         } catch (Exception e) {
             Utils.takeSnapShot(driver, "clickOnElement Error");
-            logger.error("Could not click on" + elementName + ".");
+            logger.error("Could not click on " + elementName + ".");
         }
 
     }
@@ -40,6 +43,7 @@ public class BasePage {
             wait.until(ExpectedConditions.elementToBeClickable(element));
             element.clear();
             element.sendKeys(text);
+            logger.info("Text was successfully written into " + elementName + ".");
         }catch (Exception e) {
             Utils.takeSnapShot(driver, "inputTextError");
             logger.error("Could not input text into" + elementName + ".");
@@ -68,6 +72,7 @@ public class BasePage {
             wait.until(ExpectedConditions.elementToBeClickable(element));
             Actions action = new Actions(driver);
             action.moveToElement(element).build().perform();
+            logger.info(elementName + " was successfully hovered.");
         }catch (Exception e) {
             Utils.takeSnapShot(driver, "hoverOnElementError");
             logger.error("Could not hover on " + elementName + ".");
@@ -83,6 +88,19 @@ public class BasePage {
             Utils.takeSnapShot(driver, "ElementNotDisplayedError");
             logger.error("Error finding whether the element " + "'" + elementName + "'" + " is displayed.");
             return false;
+        }
+    }
+
+    public void selectFromDropList(WebElement dropListElement,String dropListName, String value) throws Exception {
+        try {
+            js.executeScript("arguments[0].scrollIntoView(true);", dropListElement);
+            wait.until(ExpectedConditions.visibilityOf(dropListElement));
+            Select select = new Select(dropListElement);
+            select.selectByValue(value);
+            logger.info("element was selected successfully from " + dropListName);
+        }catch (Exception e) {
+            Utils.takeSnapShot(driver, "SelectFromDropListError");
+            logger.error("Could not select from " + dropListName + ".");
         }
     }
 }

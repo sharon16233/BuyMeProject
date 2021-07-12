@@ -10,8 +10,6 @@ import pages.HomePage;
 import pages.LoginPage;
 import pages.RegistrationPage;
 import utils.Utils;
-
-import javax.rmi.CORBA.Util;
 import java.io.IOException;
 
 public class Test_Registration extends Utils {
@@ -57,7 +55,7 @@ public class Test_Registration extends Utils {
         // Which is enough for this test because real registration is not required.
         Assert.assertTrue(registrationPage.isMailAlreadyExistsDisplayed());
         takeSnapShot(driver, "registrationTest_Success");
-        logger.info("Test passed successfully");
+        logger.info("Test 'Register to BuyMe' passed successfully");
 
     }
 

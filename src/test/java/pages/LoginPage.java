@@ -31,7 +31,7 @@ public class LoginPage extends BasePage {
         clickOnElement(registrationButton, "registration Button");
     }
 
-    public void inputEmail(String email, String name) throws Exception {
+    public void inputEmail(String email) throws Exception {
         inputText(emailField, email, "email field");
 
     }
@@ -41,13 +41,12 @@ public class LoginPage extends BasePage {
     }
 
     public void clickOnSubmitButton() throws Exception {
-        clickOnElement(submitButton, "submit button");
+        clickOnElement(submitButton, "submit login button");
     }
 
     public boolean isLoginPageDisplayed() throws Exception {
         return isElementDisplayed(loginPageHeadline, "login page Headline");
     }
-
 
     public LoginPage(WebDriver driver) {
         super(driver);
