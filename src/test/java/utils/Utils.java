@@ -19,6 +19,7 @@ import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 public class Utils {
 
@@ -28,6 +29,7 @@ public class Utils {
     public static void setup() throws IOException {
         PropertyConfigurator.configure(System.getProperty("user.dir") + "/log4j.properties");
         driver = Browser.getDriver(getProperty("browser"));
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     public static boolean FileExists(String path) {

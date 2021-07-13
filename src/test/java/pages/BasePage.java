@@ -26,7 +26,7 @@ public class BasePage {
     public void clickOnElement(WebElement element, String elementName) throws Exception {
         try {
             js.executeScript("arguments[0].scrollIntoView(true);", element);
-            //wait.until(ExpectedConditions.elementToBeClickable(element));
+            wait.until(ExpectedConditions.elementToBeClickable(element));
             element.click();
             logger.info(elementName + " was clicked successfully.");
         } catch (Exception e) {
@@ -44,7 +44,7 @@ public class BasePage {
             element.clear();
             element.sendKeys(text);
             logger.info("Text was successfully written into " + elementName + ".");
-        }catch (Exception e) {
+        } catch (Exception e) {
             Utils.takeSnapShot(driver, "inputTextError");
             logger.error("Could not input text into" + elementName + ".");
         }
@@ -73,7 +73,7 @@ public class BasePage {
             Actions action = new Actions(driver);
             action.moveToElement(element).build().perform();
             logger.info(elementName + " was successfully hovered.");
-        }catch (Exception e) {
+        } catch (Exception e) {
             Utils.takeSnapShot(driver, "hoverOnElementError");
             logger.error("Could not hover on " + elementName + ".");
         }
@@ -82,25 +82,36 @@ public class BasePage {
     public boolean isElementDisplayed(WebElement element, String elementName) throws Exception {
         try {
             js.executeScript("arguments[0].scrollIntoView(true);", element);
-            wait.until(ExpectedConditions.elementToBeClickable(element));
+            wait.until(ExpectedConditions.visibilityOf(element));
             return element.isDisplayed();
-        }catch (Exception e) {
+        } catch (Exception e) {
             Utils.takeSnapShot(driver, "ElementNotDisplayedError");
             logger.error("Error finding whether the element " + "'" + elementName + "'" + " is displayed.");
             return false;
         }
     }
 
-    public void selectFromDropList(WebElement dropListElement,String dropListName, String value) throws Exception {
+    public void selectFromDropList(WebElement dropListElement, String dropListName, String value) throws Exception {
         try {
             js.executeScript("arguments[0].scrollIntoView(true);", dropListElement);
             wait.until(ExpectedConditions.visibilityOf(dropListElement));
             Select select = new Select(dropListElement);
             select.selectByValue(value);
             logger.info("element was selected successfully from " + dropListName);
-        }catch (Exception e) {
+        } catch (Exception e) {
             Utils.takeSnapShot(driver, "SelectFromDropListError");
             logger.error("Could not select from " + dropListName + ".");
+        }
+    }
+
+    public void uploadFile(WebElement element, String pathToFile, String elementName) throws Exception {
+        try {
+            js.executeScript("arguments[0].scrollIntoView(true);", element);
+            element.sendKeys(pathToFile);
+            logger.info("File was successfully uploaded");
+        } catch (Exception e) {
+            Utils.takeSnapShot(driver, "UploadFileError");
+            logger.error("Could not upload file to " + elementName + ".");
         }
     }
 }

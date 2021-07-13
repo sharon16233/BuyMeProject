@@ -490,3 +490,880 @@
 21/07/12 22:25:09 INFO pages.BasePage: Text was successfully written into confirmPassword field.
 21/07/12 22:25:09 INFO pages.BasePage: registration button was clicked successfully.
 21/07/12 22:25:12 INFO tests.Test_Registration: Test 'Register to BuyMe' passed successfully
+21/07/13 18:43:00 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 18:43:01 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 18:43:01 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 18:43:02 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 18:43:02 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 18:43:02 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 18:43:04 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 18:43:04 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 18:43:05 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 18:43:05 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 18:43:05 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 18:43:05 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 18:43:05 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 18:43:05 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 18:43:14 INFO tests.Test_Registration: Begin test 'register to BuyMe' ...
+21/07/13 18:43:17 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 18:43:17 INFO tests.Test_Registration: Login page is displayed.
+21/07/13 18:43:17 INFO pages.BasePage: registration Button was clicked successfully.
+21/07/13 18:43:17 INFO tests.Test_Registration: Registration page is displayed.
+21/07/13 18:43:18 INFO pages.BasePage: Text was successfully written into name field.
+21/07/13 18:43:18 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 18:43:18 INFO pages.BasePage: Text was successfully written into password field.
+21/07/13 18:43:19 INFO pages.BasePage: Text was successfully written into confirmPassword field.
+21/07/13 18:43:19 INFO pages.BasePage: registration button was clicked successfully.
+21/07/13 18:43:22 INFO tests.Test_Registration: Test 'Register to BuyMe' passed successfully
+21/07/13 18:45:36 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 18:45:37 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 18:45:37 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 18:45:37 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 18:45:38 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 18:45:38 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 18:45:40 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 18:45:40 INFO tests.Test_SendGift: logged in asseyeyi9368@godpeed.com
+21/07/13 18:45:40 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 18:45:40 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 18:45:40 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 18:45:40 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 18:45:41 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 18:45:41 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 18:45:41 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 18:46:26 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 18:46:27 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 18:46:27 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 18:46:27 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 18:46:28 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 18:46:28 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 18:46:30 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 18:46:30 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 18:46:30 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 18:46:30 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 18:46:30 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 18:46:30 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 18:46:30 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 18:46:30 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 18:46:31 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 18:57:23 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 18:57:24 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 18:57:24 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 18:57:24 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 18:57:24 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 18:57:25 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 18:57:27 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 18:57:27 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 18:57:27 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 18:57:27 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 18:57:27 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 18:57:27 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 18:57:27 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 18:57:27 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 18:57:27 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 18:57:28 ERROR pages.BasePage: Could not click on Buy me to door.
+21/07/13 18:59:40 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 18:59:41 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 18:59:41 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 18:59:41 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 18:59:41 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 18:59:41 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 18:59:44 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 18:59:44 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 18:59:44 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 18:59:44 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 18:59:44 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 18:59:44 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 18:59:44 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 18:59:44 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 18:59:44 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 18:59:45 ERROR pages.BasePage: Could not click on Buy me to door.
+21/07/13 19:31:15 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 19:31:15 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 19:31:16 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 19:31:16 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 19:31:16 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 19:31:16 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 19:31:18 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 19:31:18 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 19:31:19 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 19:31:19 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 19:31:19 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 19:31:19 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 19:31:19 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 19:31:19 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 19:31:19 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 19:31:20 ERROR pages.BasePage: Could not click on Buy me to door.
+21/07/13 19:31:46 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 19:31:47 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 19:31:47 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 19:31:47 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 19:31:48 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 19:31:48 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 19:31:50 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 19:31:50 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 19:31:50 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 19:31:50 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 19:31:50 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 19:31:50 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 19:31:50 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 19:31:51 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 19:31:51 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 19:35:42 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 19:35:42 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 19:35:42 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 19:35:43 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 19:35:43 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 19:35:43 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 19:35:45 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 19:35:45 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 19:35:45 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 19:35:45 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 19:35:46 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 19:35:46 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 19:35:46 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 19:35:46 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 19:35:46 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 19:35:58 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 19:39:46 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 19:39:47 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 19:39:47 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 19:39:47 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 19:39:47 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 19:39:47 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 19:39:50 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 19:39:50 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 19:39:50 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 19:39:50 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 19:39:50 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 19:39:50 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 19:39:50 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 19:39:50 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 19:39:51 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 19:39:51 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 19:39:51 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 19:50:21 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 19:50:21 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 19:50:21 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 19:50:21 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 19:50:22 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 19:50:22 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 19:50:24 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 19:50:24 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 19:50:24 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 19:50:24 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 19:50:24 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 19:50:24 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 19:50:25 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 19:50:25 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 19:50:25 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 19:50:26 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 19:50:26 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 19:50:27 ERROR pages.BasePage: Could not input text intoGift sum field.
+21/07/13 19:50:27 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 19:51:00 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 19:51:00 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 19:51:00 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 19:51:00 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 19:51:01 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 19:51:01 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 19:51:03 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 19:51:03 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 19:51:03 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 19:51:03 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 19:51:03 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 19:51:03 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 19:51:03 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 19:51:04 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 19:51:04 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 19:51:05 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 19:51:05 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 19:51:34 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 19:52:04 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 19:52:05 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 19:52:05 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 19:52:05 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 19:52:05 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 19:52:06 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 19:52:08 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 19:52:08 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 19:52:08 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 19:52:08 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 19:52:08 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 19:52:08 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 19:52:08 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 19:52:08 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 19:52:09 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 19:52:09 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 19:52:09 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 19:52:10 ERROR pages.BasePage: Could not input text intoGift sum field.
+21/07/13 19:52:10 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 19:53:12 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 19:53:12 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 19:53:12 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 19:53:12 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 19:53:13 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 19:53:13 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 19:53:15 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 19:53:15 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 19:53:15 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 19:53:15 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 19:53:15 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 19:53:15 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 19:53:15 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 19:53:16 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 19:53:16 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 19:53:17 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 19:53:17 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 19:53:19 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 19:53:19 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 19:57:09 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 19:57:09 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 19:57:10 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 19:57:10 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 19:57:10 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 19:57:10 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 19:57:12 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 19:57:12 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 19:57:13 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 19:57:13 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 19:57:13 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 19:57:13 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 19:57:13 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 19:57:13 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 19:57:13 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 19:57:14 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 19:57:14 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 19:57:15 ERROR pages.BasePage: Error finding whether the element 'Gift card link' is displayed.
+21/07/13 19:58:11 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 19:58:12 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 19:58:12 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 19:58:12 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 19:58:12 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 19:58:12 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 19:58:14 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 19:58:14 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 19:58:15 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 19:58:15 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 19:58:15 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 19:58:15 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 19:58:15 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 19:58:15 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 19:58:15 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 19:58:16 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 19:58:16 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 19:58:17 ERROR pages.BasePage: Error finding whether the element 'Gift card link' is displayed.
+21/07/13 19:58:30 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 19:58:30 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 19:58:31 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 19:58:31 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 19:58:31 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 19:58:31 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 19:58:33 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 19:58:33 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 19:58:34 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 19:58:34 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 19:58:34 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 19:58:34 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 19:58:34 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 19:58:34 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 19:58:34 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 19:58:35 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 19:58:35 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 19:59:02 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 19:59:04 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 19:59:09 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 19:59:54 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 19:59:54 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 19:59:54 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 19:59:55 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 19:59:55 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 19:59:55 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 19:59:57 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 19:59:57 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 19:59:57 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 19:59:57 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 19:59:57 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 19:59:58 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 19:59:58 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 19:59:58 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 19:59:58 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 19:59:59 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 19:59:59 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 20:01:06 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 20:01:16 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 20:01:16 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 20:01:16 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 20:01:16 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 20:01:17 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 20:01:17 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 20:01:19 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 20:01:19 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 20:01:19 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 20:01:19 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 20:01:19 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 20:01:19 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 20:01:20 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 20:01:20 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 20:01:20 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 20:01:21 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 20:01:21 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 20:01:21 ERROR pages.BasePage: Error finding whether the element 'Gift card link' is displayed.
+21/07/13 20:02:23 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 20:02:23 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 20:02:23 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 20:02:24 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 20:02:24 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 20:02:24 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 20:02:26 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 20:02:26 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 20:02:26 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 20:02:27 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 20:02:27 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 20:02:27 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 20:02:27 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 20:02:27 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 20:02:27 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 20:02:28 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 20:02:28 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 20:02:28 ERROR pages.BasePage: Error finding whether the element 'Gift sum field' is displayed.
+21/07/13 20:03:28 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 20:03:28 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 20:03:28 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 20:03:28 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 20:03:29 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 20:03:29 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 20:03:31 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 20:03:31 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 20:03:31 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 20:03:31 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 20:03:31 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 20:03:32 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 20:03:32 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 20:03:32 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 20:03:32 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 20:03:33 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 20:03:33 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 20:03:35 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 20:03:35 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 20:03:36 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 20:05:05 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 20:05:05 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 20:05:06 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 20:05:06 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 20:05:06 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 20:05:06 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 20:05:08 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 20:05:08 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 20:05:08 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 20:05:09 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 20:05:09 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 20:05:09 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 20:05:09 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 20:05:09 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 20:05:09 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 20:05:10 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 20:05:10 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 20:05:11 ERROR pages.BasePage: Error finding whether the element 'Gift sum field' is displayed.
+21/07/13 20:05:38 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 20:05:38 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 20:05:38 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 20:05:38 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 20:05:38 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 20:05:39 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 20:05:41 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 20:05:41 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 20:05:41 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 20:05:41 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 20:05:41 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 20:05:41 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 20:05:41 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 20:05:41 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 20:05:42 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 20:05:42 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 20:05:43 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 20:05:45 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 20:05:45 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 20:05:45 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 20:06:58 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 20:06:58 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 20:06:58 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 20:06:59 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 20:06:59 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 20:06:59 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 20:07:01 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 20:07:01 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 20:07:01 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 20:07:02 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 20:07:02 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 20:07:02 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 20:07:02 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 20:07:02 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 20:07:02 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 20:07:03 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 20:07:03 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 20:07:03 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 20:07:04 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 20:07:04 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 20:07:34 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 20:07:35 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 20:07:35 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 20:07:35 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 20:07:35 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 20:07:35 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 20:07:36 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 20:07:36 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 20:07:37 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 20:07:37 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 20:07:37 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 20:07:37 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 20:07:38 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 20:07:38 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 20:07:38 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 20:07:39 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 20:07:39 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 20:07:39 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 20:07:40 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 20:07:40 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:24:12 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:24:12 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:24:12 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:24:13 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:24:13 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:24:13 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:24:13 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:24:13 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:24:16 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 22:24:16 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 22:24:16 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 22:24:16 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 22:24:16 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 22:24:16 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 22:24:16 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 22:24:17 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 22:24:18 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 22:24:18 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 22:24:18 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 22:24:19 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:24:19 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/13 22:24:19 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/13 22:24:19 INFO pages.BasePage: Text was successfully written into Receiver name field.
+21/07/13 22:24:19 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/13 22:24:20 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/13 22:24:47 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:24:48 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:24:48 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:24:48 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:24:48 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:24:49 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:24:49 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:24:49 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:24:50 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 22:24:50 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 22:24:50 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 22:24:51 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 22:24:51 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 22:24:51 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 22:24:51 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 22:24:52 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 22:24:52 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 22:24:52 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 22:24:52 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 22:24:53 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:24:53 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/13 22:24:54 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/13 22:24:54 INFO pages.BasePage: Text was successfully written into Receiver name field.
+21/07/13 22:24:54 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/13 22:24:54 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/13 22:25:18 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:25:18 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:25:18 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:25:18 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:25:19 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:25:19 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:25:19 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:25:19 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:25:21 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 22:25:21 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 22:25:21 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 22:25:21 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 22:25:21 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 22:25:21 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 22:25:21 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 22:25:22 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 22:25:22 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 22:25:22 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 22:25:22 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 22:25:23 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:25:23 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/13 22:25:23 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/13 22:25:24 INFO pages.BasePage: Text was successfully written into Receiver name field.
+21/07/13 22:25:24 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/13 22:25:24 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/13 22:32:07 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:32:07 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:32:07 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:32:08 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:32:08 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:32:08 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:32:08 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:32:08 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:32:10 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 22:32:10 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 22:32:10 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 22:32:10 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 22:32:10 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 22:32:10 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 22:32:11 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 22:32:11 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 22:32:11 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 22:32:11 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 22:32:12 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 22:32:12 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:32:12 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/13 22:32:12 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/13 22:32:12 INFO pages.BasePage: Text was successfully written into Receiver name field.
+21/07/13 22:32:13 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/13 22:32:13 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/13 22:32:13 ERROR pages.BasePage: Could not upload file to Upload photo button.
+21/07/13 22:32:34 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:32:34 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:32:34 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:32:35 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:32:35 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:32:35 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:32:35 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:32:35 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:32:37 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 22:32:37 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 22:32:37 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 22:32:37 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 22:32:37 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 22:32:37 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 22:32:38 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 22:32:38 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 22:32:39 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 22:32:39 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 22:32:39 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 22:32:39 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:32:40 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/13 22:32:40 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/13 22:32:40 INFO pages.BasePage: Text was successfully written into Receiver name field.
+21/07/13 22:32:40 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/13 22:32:40 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/13 22:33:32 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:33:33 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:33:33 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:33:33 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:33:33 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:33:33 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:33:34 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:33:34 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:33:35 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 22:33:35 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 22:33:35 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 22:33:35 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 22:33:36 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 22:33:36 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 22:33:36 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 22:33:36 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 22:33:36 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 22:33:37 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 22:33:37 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 22:33:37 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:33:38 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/13 22:33:38 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/13 22:33:38 INFO pages.BasePage: Text was successfully written into Receiver name field.
+21/07/13 22:33:38 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/13 22:33:38 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/13 22:33:39 ERROR pages.BasePage: Could not upload file to Upload photo button.
+21/07/13 22:34:13 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:34:14 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:34:14 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:34:14 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:34:14 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:34:14 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:34:15 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:34:15 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:34:16 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 22:34:17 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 22:34:17 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 22:34:17 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 22:34:17 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 22:34:17 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 22:34:17 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 22:34:18 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 22:34:18 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 22:34:18 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 22:34:18 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 22:34:19 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:34:19 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/13 22:34:20 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/13 22:34:20 INFO pages.BasePage: Text was successfully written into Receiver name field.
+21/07/13 22:34:20 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/13 22:34:20 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/13 22:36:59 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:36:59 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:36:59 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:37:00 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:37:00 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:37:00 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:37:00 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:37:00 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:37:02 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 22:37:02 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 22:37:02 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 22:37:02 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 22:37:02 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 22:37:02 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 22:37:03 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 22:37:03 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 22:37:04 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 22:37:04 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 22:37:04 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 22:37:04 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:37:05 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/13 22:37:05 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/13 22:37:05 INFO pages.BasePage: Text was successfully written into Receiver name field.
+21/07/13 22:37:05 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/13 22:37:05 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/13 22:37:06 INFO pages.BasePage: uploadButton was clicked successfully.
+21/07/13 22:37:40 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:37:40 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:37:40 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:37:41 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:37:41 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:37:41 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:37:41 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:37:41 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:37:43 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 22:37:43 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 22:37:43 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 22:37:43 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 22:37:43 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 22:37:43 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 22:37:44 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 22:37:44 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 22:37:44 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 22:37:45 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 22:37:45 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 22:37:45 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:37:45 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/13 22:37:46 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/13 22:37:46 INFO pages.BasePage: Text was successfully written into Receiver name field.
+21/07/13 22:37:46 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/13 22:37:46 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/13 22:37:46 INFO pages.BasePage: uploadButton was clicked successfully.
+21/07/13 22:41:10 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:41:11 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:41:11 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:41:11 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:41:11 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:41:11 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:41:11 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:41:11 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:41:13 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 22:41:13 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 22:41:13 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 22:41:13 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 22:41:14 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 22:41:14 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 22:41:14 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 22:41:14 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 22:41:14 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 22:41:15 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 22:41:15 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 22:41:15 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:41:15 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/13 22:41:16 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/13 22:41:16 INFO pages.BasePage: Text was successfully written into Receiver name field.
+21/07/13 22:41:16 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/13 22:41:16 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/13 22:41:17 ERROR pages.BasePage: Could not upload file to Upload photo button.
+21/07/13 22:41:31 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:41:32 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:41:32 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:41:32 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:41:32 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:41:33 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:41:33 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:41:33 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:41:34 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 22:41:34 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 22:41:35 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 22:41:35 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 22:41:35 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 22:41:35 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 22:41:35 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 22:41:36 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 22:41:36 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 22:41:36 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 22:41:36 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 22:41:37 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:41:37 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/13 22:41:37 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/13 22:41:38 INFO pages.BasePage: Text was successfully written into Receiver name field.
+21/07/13 22:41:38 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/13 22:41:38 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/13 22:45:27 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:45:28 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:45:28 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:45:28 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:45:28 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:45:28 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:45:29 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:45:29 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:45:30 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 22:45:30 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 22:45:30 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 22:45:31 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 22:45:31 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 22:45:31 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 22:45:31 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 22:45:31 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 22:45:31 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 22:45:32 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 22:45:32 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 22:45:32 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:45:33 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/13 22:45:33 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/13 22:45:33 INFO pages.BasePage: Text was successfully written into Receiver name field.
+21/07/13 22:45:33 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/13 22:45:33 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/13 22:48:17 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:48:18 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:48:18 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:48:18 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:48:18 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:48:19 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:48:19 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:48:19 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:48:20 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 22:48:20 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 22:48:21 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 22:48:21 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 22:48:21 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 22:48:21 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 22:48:21 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 22:48:22 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 22:48:22 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 22:48:22 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 22:48:23 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 22:48:23 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:48:23 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/13 22:48:23 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/13 22:48:24 INFO pages.BasePage: Text was successfully written into Receiver name field.
+21/07/13 22:48:24 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/13 22:48:24 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/13 22:49:48 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:49:49 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:49:49 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:49:49 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:49:50 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:49:50 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:49:50 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:49:50 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:49:51 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:49:51 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:49:51 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:49:52 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:49:52 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:49:52 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:49:52 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:49:52 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:49:54 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 22:49:54 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 22:49:54 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 22:49:54 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 22:49:54 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 22:49:54 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 22:49:55 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/13 22:49:55 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 22:49:55 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 22:49:55 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 22:49:56 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 22:49:56 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 22:49:56 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:49:56 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/13 22:49:56 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/13 22:49:57 INFO pages.BasePage: Text was successfully written into Receiver name field.
+21/07/13 22:49:57 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/13 22:49:57 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/13 22:51:24 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:51:25 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:51:25 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:51:25 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:51:25 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:51:25 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:51:25 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:51:25 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:51:27 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 22:51:27 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 22:51:27 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 22:51:27 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 22:51:28 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 22:51:28 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 22:51:28 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 22:51:29 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 22:51:29 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 22:51:29 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 22:51:29 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 22:51:30 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:51:30 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/13 22:51:30 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/13 22:51:30 INFO pages.BasePage: Text was successfully written into Receiver name field.
+21/07/13 22:51:30 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/13 22:51:31 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/13 22:51:43 INFO pages.BasePage: File was successfully uploaded
+21/07/13 22:53:23 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:53:23 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:53:23 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:53:24 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:53:24 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:53:24 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:53:24 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:53:24 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:53:26 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 22:53:26 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 22:53:26 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 22:53:26 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 22:53:26 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 22:53:26 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 22:53:27 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 22:53:27 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 22:53:28 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 22:53:28 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 22:53:28 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 22:53:28 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:53:29 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/13 22:53:29 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/13 22:53:30 INFO pages.BasePage: Text was successfully written into Receiver name field.
+21/07/13 22:53:30 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/13 22:53:30 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/13 22:53:30 INFO pages.BasePage: File was successfully uploaded
+21/07/13 22:55:54 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/13 22:55:54 INFO pages.BasePage: entrance button was clicked successfully.
+21/07/13 22:55:54 INFO tests.Test_SendGift: Login page is displayed.
+21/07/13 22:55:54 INFO pages.BasePage: Text was successfully written into email field.
+21/07/13 22:55:55 INFO pages.BasePage: Text was successfully written into password.
+21/07/13 22:55:55 INFO pages.BasePage: submit login button was clicked successfully.
+21/07/13 22:55:55 INFO tests.Test_SendGift: Login passed successfully.
+21/07/13 22:55:55 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/13 22:55:56 ERROR pages.BasePage: Could not click on Amount droplist.
+21/07/13 22:55:56 INFO tests.Test_SendGift: Amount was chosen.
+21/07/13 22:55:57 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/13 22:55:57 INFO tests.Test_SendGift: Area was chosen.
+21/07/13 22:55:57 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/13 22:55:57 INFO tests.Test_SendGift: Category was chosen.
+21/07/13 22:55:57 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/13 22:55:58 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/13 22:55:58 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/13 22:55:58 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/13 22:55:58 INFO pages.BasePage: Text was successfully written into Gift sum field.
+21/07/13 22:55:59 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/13 22:55:59 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/13 22:55:59 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/13 22:55:59 INFO pages.BasePage: Text was successfully written into Receiver name field.
+21/07/13 22:55:59 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/13 22:55:59 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/13 22:56:00 INFO pages.BasePage: File was successfully uploaded
+21/07/13 22:56:00 INFO pages.BasePage: Continue button was clicked successfully.
