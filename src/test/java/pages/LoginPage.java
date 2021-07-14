@@ -26,6 +26,8 @@ public class LoginPage extends BasePage {
     @FindBy(css = "[class='bm-h1']")
     WebElement loginPageHeadline;
 
+    @FindBy(css = "[class='parsley-required']")
+    WebElement errorMessage;
 
     public void clickOnRegistrationButton() throws Exception {
         clickOnElement(registrationButton, "registration Button");
@@ -46,6 +48,10 @@ public class LoginPage extends BasePage {
 
     public boolean isLoginPageDisplayed() throws Exception {
         return isElementDisplayed(loginPageHeadline, "login page Headline");
+    }
+
+    public boolean isErrorMessageDisplayed() throws Exception {
+        return isElementDisplayed(errorMessage, "Error message");
     }
 
     public LoginPage(WebDriver driver) {

@@ -10,6 +10,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Utils;
 
+import java.util.ArrayList;
+
 public class BasePage {
 
     protected WebDriver driver;
@@ -19,7 +21,7 @@ public class BasePage {
 
     public BasePage(WebDriver driver) {
         this.driver = driver;
-        this.wait = new WebDriverWait(driver, 10);
+        this.wait = new WebDriverWait(driver, 20);
         this.js = (JavascriptExecutor) driver;
     }
 
@@ -51,7 +53,7 @@ public class BasePage {
 
     }
 
-    public boolean isAlertPresent() {
+    public boolean isAlertPresented() {
         try {
             driver.switchTo().alert();
             return true;
@@ -114,4 +116,22 @@ public class BasePage {
             logger.error("Could not upload file to " + elementName + ".");
         }
     }
+
+    public void switchToNewTab() {
+        ArrayList<String> newTab = new ArrayList<String>(driver.getWindowHandles());
+        driver.switchTo().window(newTab.get(1));
+    }
+
+    public boolean scrollPageDown() throws Exception {
+        try {
+            JavascriptExecutor js = (JavascriptExecutor) driver;
+            js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+            return true;
+        } catch (Exception e) {
+            Utils.takeSnapShot(driver, "ScrollPageDownError");
+            logger.error("Could not scroll the page down");
+            return false;
+        }
+    }
+
 }

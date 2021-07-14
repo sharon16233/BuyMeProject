@@ -31,6 +31,12 @@ public class ReceiverInfoPage extends BasePage{
     @FindBy(css = "[type='submit']")
     WebElement continueButton;
 
+    @FindBy(css = "[class='parsley-required']")
+    WebElement nameErrorMessage;
+
+    @FindBy(css = "[class='parsley-success']")
+    WebElement blessingMessage;
+
 
     public void clickOnToSomeoneElse() throws Exception {
         clickOnElement(toSomeoneElseButton, "To someone else button");
@@ -58,6 +64,14 @@ public class ReceiverInfoPage extends BasePage{
 
     public void clickOnContinueButton() throws Exception {
         clickOnElement(continueButton, "Continue button");
+    }
+
+    public boolean isNameErrorMessageDisplayed() throws Exception {
+        return isElementDisplayed(nameErrorMessage, "Name error message");
+    }
+
+    public boolean isBlessingMessageDisplayed() throws Exception {
+        return isElementDisplayed(blessingMessage, "Blessing message");
     }
 
 

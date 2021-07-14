@@ -18,6 +18,8 @@ public class Test_SendGift extends Utils {
     public static ChooseGiftPage chooseGiftPage;
     public static InsertGIftSumPage insertGIftSumPage;
     public static ReceiverInfoPage receiverInfoPage;
+    public static SendingMethodPage sendingMethodPage;
+    public static PaymentPage paymentPage;
     private static final Logger logger = LogManager.getLogger(Test_SendGift.class);
 
     @BeforeEach
@@ -27,6 +29,8 @@ public class Test_SendGift extends Utils {
         chooseGiftPage = new ChooseGiftPage(driver);
         insertGIftSumPage = new InsertGIftSumPage(driver);
         receiverInfoPage = new ReceiverInfoPage(driver);
+        sendingMethodPage = new SendingMethodPage(driver);
+        paymentPage = new PaymentPage(driver);
         driver.get(Utils.getProperty("baseUrl"));
     }
 
@@ -72,6 +76,19 @@ public class Test_SendGift extends Utils {
         receiverInfoPage.clickOnEndOfTheYearGifts();
         receiverInfoPage.uploadPhoto(System.getProperty("user.dir") + Utils.getProperty("pathToPhoto"));
         receiverInfoPage.clickOnContinueButton();
+
+        Assert.assertTrue(sendingMethodPage.isSendingMethodPageDisplayed());
+        logger.info("Sending method page is displayed.");
+        sendingMethodPage.clickOnEmailButton();
+        sendingMethodPage.inputGiftReceiverEmail(Utils.getProperty("validUsername"));
+        sendingMethodPage.clickOnContinueToPaymentPageButton();
+
+        Assert.assertTrue(paymentPage.isPaymentPageDisplayed());
+        Utils.takeSnapShot(driver, "SendGiftTestPassed");
+        logger.info("Payment page is displayed.");
+
+
+        logger.info("Send Gift test passed successfully!");
 
     }
 

@@ -29,6 +29,9 @@ public class HomePage extends BasePage {
     @FindBy(css = "[class='ui-btn search ember-view']")
     WebElement searchButton;
 
+    @FindBy(linkText = "careers")
+    WebElement careersButton;
+
     public void clickOnEntranceButton() throws Exception {
         clickOnElement(entranceButton, "entrance button");
     }
@@ -38,6 +41,7 @@ public class HomePage extends BasePage {
     }
 
     public void clickOnAmountDropList() throws Exception {
+        Thread.sleep(1000);
         clickOnElement(amountDropList, "Amount droplist");
     }
 
@@ -53,10 +57,18 @@ public class HomePage extends BasePage {
         clickOnElement(searchButton, "Gift search button");
     }
 
+    public void clickOnCareersButton() throws Exception {
+        clickOnElement(careersButton, "Careers button");
+    }
+
     public void chooseValueFromDropList() {
         pressOnKeyboard(Keys.DOWN);
         pressOnKeyboard(Keys.DOWN);
         pressOnKeyboard(Keys.ENTER);
+    }
+
+    public void switchToComeetPageTab() {
+        switchToNewTab();
     }
 
     public HomePage(WebDriver driver) {
