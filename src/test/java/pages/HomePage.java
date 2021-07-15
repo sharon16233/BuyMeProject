@@ -33,7 +33,7 @@ public class HomePage extends BasePage {
     WebElement careersButton;
 
     public void clickOnEntranceButton() throws Exception {
-        clickOnElement(entranceButton, "entrance button");
+        clickOnElement(entranceButton, "Entrance button");
     }
 
     public boolean isLoggedIn() throws Exception {

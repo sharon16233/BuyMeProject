@@ -30,24 +30,24 @@ public class LoginPage extends BasePage {
     WebElement errorMessage;
 
     public void clickOnRegistrationButton() throws Exception {
-        clickOnElement(registrationButton, "registration Button");
+        clickOnElement(registrationButton, "Registration Button");
     }
 
     public void inputEmail(String email) throws Exception {
-        inputText(emailField, email, "email field");
+        inputText(emailField, email, "Email field");
 
     }
 
     public void inputPassword(String password) throws Exception {
-        inputText(passwordField, password, "password");
+        inputText(passwordField, password, "Password");
     }
 
     public void clickOnSubmitButton() throws Exception {
-        clickOnElement(submitButton, "submit login button");
+        clickOnElement(submitButton, "Submit login button");
     }
 
     public boolean isLoginPageDisplayed() throws Exception {
-        return isElementDisplayed(loginPageHeadline, "login page Headline");
+        return isElementDisplayed(loginPageHeadline, "Login page Headline");
     }
 
     public boolean isErrorMessageDisplayed() throws Exception {

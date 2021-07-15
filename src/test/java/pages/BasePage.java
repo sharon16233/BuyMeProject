@@ -1,5 +1,6 @@
 package pages;
 
+import com.relevantcodes.extentreports.LogStatus;
 import io.reactivex.rxjava3.internal.operators.observable.BlockingObservableLatest;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
@@ -10,6 +11,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Utils;
 
+import javax.rmi.CORBA.Util;
 import java.util.ArrayList;
 
 public class BasePage {
@@ -31,9 +33,13 @@ public class BasePage {
             wait.until(ExpectedConditions.elementToBeClickable(element));
             element.click();
             logger.info(elementName + " was clicked successfully.");
+            Utils.getTestReporter().log(LogStatus.PASS, elementName + " was clicked successfully.");
         } catch (Exception e) {
             Utils.takeSnapShot(driver, "clickOnElement Error");
             logger.error("Could not click on " + elementName + ".");
+            Utils.getTestReporter().log(LogStatus.FAIL, "Could not click on " + elementName + ".");
+            Utils.getTestReporter().log(LogStatus.INFO, "Check Screenshot below:"+
+                    Utils.getTestReporter().addScreenCapture(Utils.getDest()));
         }
 
     }
@@ -46,9 +52,13 @@ public class BasePage {
             element.clear();
             element.sendKeys(text);
             logger.info("Text was successfully written into " + elementName + ".");
+            Utils.getTestReporter().log(LogStatus.PASS, "Text was successfully written into " + elementName + ".");
         } catch (Exception e) {
             Utils.takeSnapShot(driver, "inputTextError");
             logger.error("Could not input text into" + elementName + ".");
+            Utils.getTestReporter().log(LogStatus.FAIL, "Could not input text into" + elementName + ".");
+            Utils.getTestReporter().log(LogStatus.INFO, "Check Screenshot below:"+
+                    Utils.getTestReporter().addScreenCapture(Utils.getDest()));
         }
 
     }
@@ -75,9 +85,13 @@ public class BasePage {
             Actions action = new Actions(driver);
             action.moveToElement(element).build().perform();
             logger.info(elementName + " was successfully hovered.");
+            Utils.getTestReporter().log(LogStatus.PASS, elementName + " was successfully hovered.");
         } catch (Exception e) {
             Utils.takeSnapShot(driver, "hoverOnElementError");
             logger.error("Could not hover on " + elementName + ".");
+            Utils.getTestReporter().log(LogStatus.FAIL, "Could not hover on " + elementName + ".");
+            Utils.getTestReporter().log(LogStatus.INFO, "Check Screenshot below:"+
+                    Utils.getTestReporter().addScreenCapture(Utils.getDest()));
         }
     }
 
@@ -89,6 +103,10 @@ public class BasePage {
         } catch (Exception e) {
             Utils.takeSnapShot(driver, "ElementNotDisplayedError");
             logger.error("Error finding whether the element " + "'" + elementName + "'" + " is displayed.");
+            Utils.getTestReporter().log(LogStatus.FAIL, "Error finding whether the element " +
+                    "'" + elementName + "'" + " is displayed.");
+            Utils.getTestReporter().log(LogStatus.INFO, "Check Screenshot below:"+
+                    Utils.getTestReporter().addScreenCapture(Utils.getDest()));
             return false;
         }
     }
@@ -100,9 +118,13 @@ public class BasePage {
             Select select = new Select(dropListElement);
             select.selectByValue(value);
             logger.info("element was selected successfully from " + dropListName);
+            Utils.getTestReporter().log(LogStatus.PASS, "element was selected successfully from " + dropListName);
         } catch (Exception e) {
             Utils.takeSnapShot(driver, "SelectFromDropListError");
             logger.error("Could not select from " + dropListName + ".");
+            Utils.getTestReporter().log(LogStatus.FAIL, "Could not select from " + dropListName + ".");
+            Utils.getTestReporter().log(LogStatus.INFO, "Check Screenshot below:"+
+                    Utils.getTestReporter().addScreenCapture(Utils.getDest()));
         }
     }
 
@@ -111,9 +133,13 @@ public class BasePage {
             js.executeScript("arguments[0].scrollIntoView(true);", element);
             element.sendKeys(pathToFile);
             logger.info("File was successfully uploaded");
+            Utils.getTestReporter().log(LogStatus.PASS, "File was successfully uploaded");
         } catch (Exception e) {
             Utils.takeSnapShot(driver, "UploadFileError");
             logger.error("Could not upload file to " + elementName + ".");
+            Utils.getTestReporter().log(LogStatus.FAIL, "Could not upload file to " + elementName + ".");
+            Utils.getTestReporter().log(LogStatus.INFO, "Check Screenshot below:"+
+                    Utils.getTestReporter().addScreenCapture(Utils.getDest()));
         }
     }
 
@@ -130,6 +156,9 @@ public class BasePage {
         } catch (Exception e) {
             Utils.takeSnapShot(driver, "ScrollPageDownError");
             logger.error("Could not scroll the page down");
+            Utils.getTestReporter().log(LogStatus.FAIL, "Could not scroll the page down");
+            Utils.getTestReporter().log(LogStatus.INFO, "Check Screenshot below:"+
+                    Utils.getTestReporter().addScreenCapture(Utils.getDest()));
             return false;
         }
     }

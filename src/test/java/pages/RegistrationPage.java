@@ -30,31 +30,31 @@ public class RegistrationPage extends BasePage {
 
 
     public void inputName(String name) throws Exception {
-        inputText(nameField, name, "name field");
+        inputText(nameField, name, "Name field");
     }
 
     public void inputEmail(String email) throws Exception{
-        inputText(emailField, email, "email field");
+        inputText(emailField, email, "Email field");
     }
 
     public void inputPassword(String password) throws Exception{
-        inputText(passwordField, password, "password field");
+        inputText(passwordField, password, "Password field");
     }
 
     public void inputConfirmPassword(String confirmPassword) throws Exception{
-        inputText(confirmPasswordField, confirmPassword, "confirmPassword field");
+        inputText(confirmPasswordField, confirmPassword, "ConfirmPassword field");
     }
 
     public void clickOnRegistrationButton() throws Exception {
-        clickOnElement(registrationButton, "registration button");
+        clickOnElement(registrationButton, "Registration button");
     }
 
     public boolean isRegistrationPageDisplayed() throws Exception {
-        return isElementDisplayed(registrationPageHeadline, "registrationPage headline");
+        return isElementDisplayed(registrationPageHeadline, "RegistrationPage headline");
     }
 
     public boolean isMailAlreadyExistsDisplayed() throws Exception {
-        return isElementDisplayed(mailAlreadyExistsMessage, "mail already exists message");
+        return isElementDisplayed(mailAlreadyExistsMessage, "Mail already exists message");
     }
 
     public RegistrationPage(WebDriver driver) {
