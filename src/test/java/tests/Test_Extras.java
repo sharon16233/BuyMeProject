@@ -8,8 +8,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import pages.*;
 import utils.Utils;
-
-import javax.rmi.CORBA.Util;
 import java.io.IOException;
 
 public class Test_Extras extends Utils {

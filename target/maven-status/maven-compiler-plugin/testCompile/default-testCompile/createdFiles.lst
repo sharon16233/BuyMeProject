@@ -1,0 +1,15 @@
+pages\BasePage.class
+utils\Browser.class
+pages\LoginPage.class
+utils\Utils.class
+pages\HomePage.class
+pages\InsertGIftSumPage.class
+tests\Test_Registration.class
+pages\SendingMethodPage.class
+pages\ReceiverInfoPage.class
+tests\Test_Extras.class
+pages\PaymentPage.class
+pages\ChooseGiftPage.class
+pages\ComeetPage.class
+pages\RegistrationPage.class
+tests\Test_SendGift.class

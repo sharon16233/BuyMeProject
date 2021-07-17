@@ -1,7 +1,6 @@
 package pages;
 
 import com.relevantcodes.extentreports.LogStatus;
-import io.reactivex.rxjava3.internal.operators.observable.BlockingObservableLatest;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;
@@ -10,8 +9,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Utils;
-
-import javax.rmi.CORBA.Util;
 import java.util.ArrayList;
 
 public class BasePage {
@@ -51,12 +48,12 @@ public class BasePage {
             wait.until(ExpectedConditions.elementToBeClickable(element));
             element.clear();
             element.sendKeys(text);
-            logger.info("Text was successfully written into " + elementName + ".");
-            Utils.getTestReporter().log(LogStatus.PASS, "Text was successfully written into " + elementName + ".");
+            logger.info(text + " was successfully written into " + elementName + ".");
+            Utils.getTestReporter().log(LogStatus.PASS, text + " was successfully written into " + elementName + ".");
         } catch (Exception e) {
             Utils.takeSnapShot(driver, "inputTextError");
-            logger.error("Could not input text into" + elementName + ".");
-            Utils.getTestReporter().log(LogStatus.FAIL, "Could not input text into" + elementName + ".");
+            logger.error("Could not input" + text  +" into" + elementName + ".");
+            Utils.getTestReporter().log(LogStatus.FAIL, "Could not input" + text  +" into" + elementName + ".");
             Utils.getTestReporter().log(LogStatus.INFO, "Check Screenshot below:"+
                     Utils.getTestReporter().addScreenCapture(Utils.getDest()));
         }
