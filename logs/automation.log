@@ -1,0 +1,323 @@
+21/07/17 16:02:29 INFO tests.Test_Registration: Begin test 'Register to BuyMe'
+21/07/17 16:02:30 INFO pages.BasePage: Entrance button was clicked successfully.
+21/07/17 16:02:30 INFO tests.Test_Registration: Login page is displayed.
+21/07/17 16:02:30 INFO pages.BasePage: Registration Button was clicked successfully.
+21/07/17 16:02:31 INFO tests.Test_Registration: Registration page is displayed.
+21/07/17 16:02:31 INFO pages.BasePage: Sharon was successfully written into Name field.
+21/07/17 16:02:31 INFO pages.BasePage: as@gmail.com was successfully written into Email field.
+21/07/17 16:02:31 INFO pages.BasePage: Qa12345678 was successfully written into Password field.
+21/07/17 16:02:32 INFO pages.BasePage: Qa12345678 was successfully written into ConfirmPassword field.
+21/07/17 16:02:32 INFO pages.BasePage: Registration button was clicked successfully.
+21/07/17 16:02:32 INFO tests.Test_Registration: Test 'Register to BuyMe' passed successfully
+21/07/17 16:02:33 DEBUG freemarker.cache: Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21/07/17 16:02:33 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21/07/17 16:02:33 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21/07/17 16:02:33 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21/07/17 16:02:33 DEBUG freemarker.cache: Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Sharon/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21/07/17 16:04:27 INFO tests.Test_Registration: Begin test 'Register to BuyMe'
+21/07/17 16:04:27 INFO pages.BasePage: Entrance button was clicked successfully.
+21/07/17 16:04:27 INFO tests.Test_Registration: Login page is displayed.
+21/07/17 16:04:27 INFO pages.BasePage: Registration Button was clicked successfully.
+21/07/17 16:04:27 INFO tests.Test_Registration: Registration page is displayed.
+21/07/17 16:04:28 INFO pages.BasePage: Sharon was successfully written into Name field.
+21/07/17 16:04:28 INFO pages.BasePage: as@gmail.com was successfully written into Email field.
+21/07/17 16:04:28 INFO pages.BasePage: Qa12345678 was successfully written into Password field.
+21/07/17 16:04:28 INFO pages.BasePage: Qa12345678 was successfully written into ConfirmPassword field.
+21/07/17 16:04:28 INFO pages.BasePage: Registration button was clicked successfully.
+21/07/17 16:04:29 INFO tests.Test_Registration: Test 'Register to BuyMe' passed successfully
+21/07/17 16:04:30 DEBUG freemarker.cache: Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21/07/17 16:04:30 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21/07/17 16:04:30 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21/07/17 16:04:30 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21/07/17 16:04:30 DEBUG freemarker.cache: Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Sharon/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21/07/17 16:05:32 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/17 16:05:32 INFO pages.BasePage: Entrance button was clicked successfully.
+21/07/17 16:05:32 INFO tests.Test_SendGift: Login page is displayed.
+21/07/17 16:05:33 INFO pages.BasePage: seyeyi9368@godpeed.com was successfully written into Email field.
+21/07/17 16:05:33 INFO pages.BasePage: Qa12345678 was successfully written into Password.
+21/07/17 16:05:33 INFO pages.BasePage: Submit login button was clicked successfully.
+21/07/17 16:05:33 INFO tests.Test_SendGift: Login passed successfully.
+21/07/17 16:05:33 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/17 16:05:34 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/17 16:05:34 INFO tests.Test_SendGift: Amount was chosen.
+21/07/17 16:05:35 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/17 16:05:35 INFO tests.Test_SendGift: Area was chosen.
+21/07/17 16:05:35 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/17 16:05:35 INFO tests.Test_SendGift: Category was chosen.
+21/07/17 16:05:35 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/17 16:05:36 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/17 16:05:36 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/17 16:05:36 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/17 16:05:36 INFO pages.BasePage: 150 was successfully written into Gift sum field.
+21/07/17 16:05:37 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/17 16:05:37 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/17 16:05:37 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/17 16:05:37 INFO pages.BasePage: Sharon was successfully written into Receiver name field.
+21/07/17 16:05:38 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/17 16:05:38 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/17 16:05:38 INFO pages.BasePage: File was successfully uploaded
+21/07/17 16:05:38 INFO pages.BasePage: Continue button was clicked successfully.
+21/07/17 16:05:38 INFO tests.Test_SendGift: Sending method page is displayed.
+21/07/17 16:05:38 INFO pages.BasePage: Email button was clicked successfully.
+21/07/17 16:05:39 INFO pages.BasePage: seyeyi9368@godpeed.com was successfully written into Gift receiver email field.
+21/07/17 16:05:39 INFO pages.BasePage: Continue to payment page button was clicked successfully.
+21/07/17 16:05:40 INFO tests.Test_SendGift: Send Gift test passed successfully!
+21/07/17 16:05:40 INFO tests.Test_SendGift: Payment page is displayed.
+21/07/17 16:05:40 DEBUG freemarker.cache: Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21/07/17 16:05:40 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21/07/17 16:05:40 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21/07/17 16:05:40 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21/07/17 16:05:40 DEBUG freemarker.cache: Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Sharon/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21/07/17 16:07:12 INFO tests.Test_Extras: Careers amount test has begun!
+21/07/17 16:07:12 INFO pages.BasePage: Careers button was clicked successfully.
+21/07/17 16:07:15 INFO tests.Test_Extras: Comeet page is displayed.
+21/07/17 16:07:15 INFO tests.Test_Extras: Comeet has at least one open career opportunity.
+21/07/17 16:07:15 INFO tests.Test_Extras: Careers amount test passed successfully!
+21/07/17 16:07:16 DEBUG freemarker.cache: Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21/07/17 16:07:16 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21/07/17 16:07:16 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21/07/17 16:07:16 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21/07/17 16:07:16 DEBUG freemarker.cache: Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Sharon/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21/07/17 16:08:50 INFO tests.Test_Extras: Careers amount test has begun!
+21/07/17 16:08:50 INFO pages.BasePage: Careers button was clicked successfully.
+21/07/17 16:08:53 INFO tests.Test_Extras: Comeet page is displayed.
+21/07/17 16:08:53 INFO tests.Test_Extras: Comeet has at least one open career opportunity.
+21/07/17 16:08:53 INFO tests.Test_Extras: Careers amount test passed successfully!
+21/07/17 16:08:54 DEBUG freemarker.cache: Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21/07/17 16:08:54 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21/07/17 16:08:54 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21/07/17 16:08:54 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21/07/17 16:08:54 DEBUG freemarker.cache: Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Sharon/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21/07/17 16:10:05 INFO tests.Test_Extras: No values login test has begun!
+21/07/17 16:10:05 INFO pages.BasePage: Entrance button was clicked successfully.
+21/07/17 16:10:05 INFO tests.Test_Extras: Login page is displayed.
+21/07/17 16:10:06 INFO pages.BasePage: seyeyi9368@godpeed.com was successfully written into Email field.
+21/07/17 16:10:06 INFO pages.BasePage: Submit login button was clicked successfully.
+21/07/17 16:10:06 INFO tests.Test_Extras: Error message is displayed!
+21/07/17 16:10:06 INFO tests.Test_Extras: No values login test passed successfully!
+21/07/17 16:10:07 DEBUG freemarker.cache: Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21/07/17 16:10:07 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21/07/17 16:10:07 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21/07/17 16:10:07 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21/07/17 16:10:07 DEBUG freemarker.cache: Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Sharon/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21/07/17 16:14:51 INFO tests.Test_Extras: Scroll down snapshot test has begun!
+21/07/17 16:14:51 INFO tests.Test_Extras: Page scrolled down.
+21/07/17 16:14:51 INFO tests.Test_Extras: Scroll down snapshot test passed successfully!
+21/07/17 16:14:52 DEBUG freemarker.cache: Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21/07/17 16:14:52 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21/07/17 16:14:52 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21/07/17 16:14:52 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21/07/17 16:14:52 DEBUG freemarker.cache: Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Sharon/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21/07/17 16:15:43 INFO tests.Test_Extras: Receiver info messages test has begun!
+21/07/17 16:15:44 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/17 16:15:44 INFO tests.Test_Extras: Amount was chosen.
+21/07/17 16:15:44 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/17 16:15:45 INFO tests.Test_Extras: Area was chosen.
+21/07/17 16:15:45 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/17 16:15:45 INFO tests.Test_Extras: Category was chosen.
+21/07/17 16:15:45 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/17 16:15:46 INFO tests.Test_Extras: Choose gift page is displayed.
+21/07/17 16:15:46 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/17 16:15:46 INFO tests.Test_Extras: Insert gift sum page is displayed.
+21/07/17 16:15:47 INFO pages.BasePage: 150 was successfully written into Gift sum field.
+21/07/17 16:15:47 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/17 16:15:47 INFO tests.Test_Extras: Receiver info page is displayed.
+21/07/17 16:15:47 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/17 16:15:47 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/17 16:15:48 INFO pages.BasePage: Continue button was clicked successfully.
+21/07/17 16:15:48 INFO tests.Test_Extras: Name error message is displayed!
+21/07/17 16:15:48 INFO tests.Test_Extras: Blessing is displayed!
+21/07/17 16:15:48 INFO tests.Test_Extras: Receiver info messages test passed successfully!
+21/07/17 16:15:49 DEBUG freemarker.cache: Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21/07/17 16:15:49 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21/07/17 16:15:49 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21/07/17 16:15:49 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21/07/17 16:15:49 DEBUG freemarker.cache: Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Sharon/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21/07/17 16:21:02 INFO tests.Test_Extras: Scroll down snapshot test has begun!
+21/07/17 16:21:02 INFO tests.Test_Extras: Page scrolled down.
+21/07/17 16:21:02 INFO tests.Test_Extras: Scroll down snapshot test passed successfully!
+21/07/17 16:21:04 INFO tests.Test_Extras: Receiver info messages test has begun!
+21/07/17 16:21:06 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/17 16:21:06 INFO tests.Test_Extras: Amount was chosen.
+21/07/17 16:21:06 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/17 16:21:06 INFO tests.Test_Extras: Area was chosen.
+21/07/17 16:21:06 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/17 16:21:06 INFO tests.Test_Extras: Category was chosen.
+21/07/17 16:21:06 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/17 16:21:07 INFO tests.Test_Extras: Choose gift page is displayed.
+21/07/17 16:21:07 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/17 16:21:07 INFO tests.Test_Extras: Insert gift sum page is displayed.
+21/07/17 16:21:07 INFO pages.BasePage: 150 was successfully written into Gift sum field.
+21/07/17 16:21:08 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/17 16:21:08 INFO tests.Test_Extras: Receiver info page is displayed.
+21/07/17 16:21:08 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/17 16:21:08 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/17 16:21:08 INFO pages.BasePage: Continue button was clicked successfully.
+21/07/17 16:21:09 INFO tests.Test_Extras: Name error message is displayed!
+21/07/17 16:21:09 INFO tests.Test_Extras: Blessing is displayed!
+21/07/17 16:21:09 INFO tests.Test_Extras: Receiver info messages test passed successfully!
+21/07/17 16:21:11 INFO tests.Test_Extras: No values login test has begun!
+21/07/17 16:21:11 INFO pages.BasePage: Entrance button was clicked successfully.
+21/07/17 16:21:11 INFO tests.Test_Extras: Login page is displayed.
+21/07/17 16:21:11 INFO pages.BasePage: seyeyi9368@godpeed.com was successfully written into Email field.
+21/07/17 16:21:11 INFO pages.BasePage: Submit login button was clicked successfully.
+21/07/17 16:21:12 INFO tests.Test_Extras: Error message is displayed!
+21/07/17 16:21:12 INFO tests.Test_Extras: No values login test passed successfully!
+21/07/17 16:21:14 INFO tests.Test_Extras: Careers amount test has begun!
+21/07/17 16:21:14 INFO pages.BasePage: Careers button was clicked successfully.
+21/07/17 16:21:17 INFO tests.Test_Extras: Comeet page is displayed.
+21/07/17 16:21:17 INFO tests.Test_Extras: Comeet has at least one open career opportunity.
+21/07/17 16:21:17 INFO tests.Test_Extras: Careers amount test passed successfully!
+21/07/17 16:21:18 DEBUG freemarker.cache: Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21/07/17 16:21:18 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21/07/17 16:21:18 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21/07/17 16:21:18 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21/07/17 16:21:18 DEBUG freemarker.cache: Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Sharon/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21/07/17 16:21:24 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/17 16:21:24 INFO pages.BasePage: Entrance button was clicked successfully.
+21/07/17 16:21:24 INFO tests.Test_SendGift: Login page is displayed.
+21/07/17 16:21:24 INFO pages.BasePage: seyeyi9368@godpeed.com was successfully written into Email field.
+21/07/17 16:21:24 INFO pages.BasePage: Qa12345678 was successfully written into Password.
+21/07/17 16:21:25 INFO pages.BasePage: Submit login button was clicked successfully.
+21/07/17 16:21:25 INFO tests.Test_SendGift: Login passed successfully.
+21/07/17 16:21:25 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/17 16:21:26 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/17 16:21:26 INFO tests.Test_SendGift: Amount was chosen.
+21/07/17 16:21:26 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/17 16:21:26 INFO tests.Test_SendGift: Area was chosen.
+21/07/17 16:21:26 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/17 16:21:26 INFO tests.Test_SendGift: Category was chosen.
+21/07/17 16:21:27 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/17 16:21:27 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/17 16:21:27 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/17 16:21:27 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/17 16:21:28 INFO pages.BasePage: 150 was successfully written into Gift sum field.
+21/07/17 16:21:28 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/17 16:21:28 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/17 16:21:28 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/17 16:21:28 INFO pages.BasePage: Sharon was successfully written into Receiver name field.
+21/07/17 16:21:29 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/17 16:21:29 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/17 16:21:29 INFO pages.BasePage: File was successfully uploaded
+21/07/17 16:21:29 INFO pages.BasePage: Continue button was clicked successfully.
+21/07/17 16:21:29 INFO tests.Test_SendGift: Sending method page is displayed.
+21/07/17 16:21:29 INFO pages.BasePage: Email button was clicked successfully.
+21/07/17 16:21:30 INFO pages.BasePage: seyeyi9368@godpeed.com was successfully written into Gift receiver email field.
+21/07/17 16:21:30 INFO pages.BasePage: Continue to payment page button was clicked successfully.
+21/07/17 16:21:31 INFO tests.Test_SendGift: Send Gift test passed successfully!
+21/07/17 16:21:31 INFO tests.Test_SendGift: Payment page is displayed.
+21/07/17 16:21:31 DEBUG freemarker.cache: Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21/07/17 16:21:31 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21/07/17 16:21:31 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21/07/17 16:21:31 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21/07/17 16:21:31 DEBUG freemarker.cache: Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Sharon/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21/07/17 16:21:37 INFO tests.Test_Registration: Begin test 'Register to BuyMe'
+21/07/17 16:21:37 INFO pages.BasePage: Entrance button was clicked successfully.
+21/07/17 16:21:37 INFO tests.Test_Registration: Login page is displayed.
+21/07/17 16:21:38 INFO pages.BasePage: Registration Button was clicked successfully.
+21/07/17 16:21:38 INFO tests.Test_Registration: Registration page is displayed.
+21/07/17 16:21:38 INFO pages.BasePage: Sharon was successfully written into Name field.
+21/07/17 16:21:38 INFO pages.BasePage: as@gmail.com was successfully written into Email field.
+21/07/17 16:21:38 INFO pages.BasePage: Qa12345678 was successfully written into Password field.
+21/07/17 16:21:39 INFO pages.BasePage: Qa12345678 was successfully written into ConfirmPassword field.
+21/07/17 16:21:39 INFO pages.BasePage: Registration button was clicked successfully.
+21/07/17 16:21:39 INFO tests.Test_Registration: Test 'Register to BuyMe' passed successfully
+21/07/17 16:21:40 DEBUG freemarker.cache: Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21/07/17 16:21:40 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21/07/17 16:21:40 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21/07/17 16:21:40 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21/07/17 16:21:40 DEBUG freemarker.cache: Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Sharon/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21/07/17 16:23:53 INFO tests.Test_Extras: Scroll down snapshot test has begun!
+21/07/17 16:23:53 INFO tests.Test_Extras: Page scrolled down.
+21/07/17 16:23:53 INFO tests.Test_Extras: Scroll down snapshot test passed successfully!
+21/07/17 16:23:55 INFO tests.Test_Extras: Receiver info messages test has begun!
+21/07/17 16:23:56 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/17 16:23:56 INFO tests.Test_Extras: Amount was chosen.
+21/07/17 16:23:56 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/17 16:23:56 INFO tests.Test_Extras: Area was chosen.
+21/07/17 16:23:56 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/17 16:23:56 INFO tests.Test_Extras: Category was chosen.
+21/07/17 16:23:57 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/17 16:23:57 INFO tests.Test_Extras: Choose gift page is displayed.
+21/07/17 16:23:57 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/17 16:23:57 INFO tests.Test_Extras: Insert gift sum page is displayed.
+21/07/17 16:23:58 INFO pages.BasePage: 150 was successfully written into Gift sum field.
+21/07/17 16:23:58 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/17 16:23:58 INFO tests.Test_Extras: Receiver info page is displayed.
+21/07/17 16:23:58 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/17 16:23:59 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/17 16:23:59 INFO pages.BasePage: Continue button was clicked successfully.
+21/07/17 16:23:59 INFO tests.Test_Extras: Name error message is displayed!
+21/07/17 16:23:59 INFO tests.Test_Extras: Blessing is displayed!
+21/07/17 16:24:00 INFO tests.Test_Extras: Receiver info messages test passed successfully!
+21/07/17 16:24:01 INFO tests.Test_Extras: No values login test has begun!
+21/07/17 16:24:02 INFO pages.BasePage: Entrance button was clicked successfully.
+21/07/17 16:24:02 INFO tests.Test_Extras: Login page is displayed.
+21/07/17 16:24:02 INFO pages.BasePage: seyeyi9368@godpeed.com was successfully written into Email field.
+21/07/17 16:24:02 INFO pages.BasePage: Submit login button was clicked successfully.
+21/07/17 16:24:02 INFO tests.Test_Extras: Error message is displayed!
+21/07/17 16:24:03 INFO tests.Test_Extras: No values login test passed successfully!
+21/07/17 16:24:04 INFO tests.Test_Extras: Careers amount test has begun!
+21/07/17 16:24:05 INFO pages.BasePage: Careers button was clicked successfully.
+21/07/17 16:24:07 INFO tests.Test_Extras: Comeet page is displayed.
+21/07/17 16:24:07 INFO tests.Test_Extras: Comeet has at least one open career opportunity.
+21/07/17 16:24:08 INFO tests.Test_Extras: Careers amount test passed successfully!
+21/07/17 16:24:08 DEBUG freemarker.cache: Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21/07/17 16:24:08 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21/07/17 16:24:08 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21/07/17 16:24:08 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21/07/17 16:24:08 DEBUG freemarker.cache: Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Sharon/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21/07/17 16:24:14 INFO tests.Test_SendGift: Begin test 'Send a Gift' ...
+21/07/17 16:24:14 INFO pages.BasePage: Entrance button was clicked successfully.
+21/07/17 16:24:14 INFO tests.Test_SendGift: Login page is displayed.
+21/07/17 16:24:15 INFO pages.BasePage: seyeyi9368@godpeed.com was successfully written into Email field.
+21/07/17 16:24:15 INFO pages.BasePage: Qa12345678 was successfully written into Password.
+21/07/17 16:24:15 INFO pages.BasePage: Submit login button was clicked successfully.
+21/07/17 16:24:15 INFO tests.Test_SendGift: Login passed successfully.
+21/07/17 16:24:15 INFO tests.Test_SendGift: logged in as seyeyi9368@godpeed.com
+21/07/17 16:24:16 INFO pages.BasePage: Amount droplist was clicked successfully.
+21/07/17 16:24:16 INFO tests.Test_SendGift: Amount was chosen.
+21/07/17 16:24:16 INFO pages.BasePage: Area droplist was clicked successfully.
+21/07/17 16:24:17 INFO tests.Test_SendGift: Area was chosen.
+21/07/17 16:24:17 INFO pages.BasePage: Category droplist was clicked successfully.
+21/07/17 16:24:17 INFO tests.Test_SendGift: Category was chosen.
+21/07/17 16:24:17 INFO pages.BasePage: Gift search button was clicked successfully.
+21/07/17 16:24:18 INFO tests.Test_SendGift: Choose gift page is displayed.
+21/07/17 16:24:18 INFO pages.BasePage: Buy me to door was clicked successfully.
+21/07/17 16:24:18 INFO tests.Test_SendGift: Insert gift sum page is displayed.
+21/07/17 16:24:18 INFO pages.BasePage: 150 was successfully written into Gift sum field.
+21/07/17 16:24:19 INFO pages.BasePage: Submit button was clicked successfully.
+21/07/17 16:24:19 INFO tests.Test_SendGift: Receiver info page is displayed.
+21/07/17 16:24:19 INFO pages.BasePage: To someone else button was clicked successfully.
+21/07/17 16:24:19 INFO pages.BasePage: Sharon was successfully written into Receiver name field.
+21/07/17 16:24:19 INFO pages.BasePage: Event drop list was clicked successfully.
+21/07/17 16:24:20 INFO pages.BasePage: End of the year gifts button was clicked successfully.
+21/07/17 16:24:20 INFO pages.BasePage: File was successfully uploaded
+21/07/17 16:24:20 INFO pages.BasePage: Continue button was clicked successfully.
+21/07/17 16:24:20 INFO tests.Test_SendGift: Sending method page is displayed.
+21/07/17 16:24:20 INFO pages.BasePage: Email button was clicked successfully.
+21/07/17 16:24:20 INFO pages.BasePage: seyeyi9368@godpeed.com was successfully written into Gift receiver email field.
+21/07/17 16:24:21 INFO pages.BasePage: Continue to payment page button was clicked successfully.
+21/07/17 16:24:21 INFO tests.Test_SendGift: Send Gift test passed successfully!
+21/07/17 16:24:21 INFO tests.Test_SendGift: Payment page is displayed.
+21/07/17 16:24:22 DEBUG freemarker.cache: Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21/07/17 16:24:22 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21/07/17 16:24:22 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21/07/17 16:24:22 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21/07/17 16:24:22 DEBUG freemarker.cache: Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Sharon/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+21/07/17 16:24:26 INFO tests.Test_Registration: Begin test 'Register to BuyMe'
+21/07/17 16:24:27 INFO pages.BasePage: Entrance button was clicked successfully.
+21/07/17 16:24:27 INFO tests.Test_Registration: Login page is displayed.
+21/07/17 16:24:27 INFO pages.BasePage: Registration Button was clicked successfully.
+21/07/17 16:24:27 INFO tests.Test_Registration: Registration page is displayed.
+21/07/17 16:24:27 INFO pages.BasePage: Sharon was successfully written into Name field.
+21/07/17 16:24:28 INFO pages.BasePage: as@gmail.com was successfully written into Email field.
+21/07/17 16:24:28 INFO pages.BasePage: Qa12345678 was successfully written into Password field.
+21/07/17 16:24:28 INFO pages.BasePage: Qa12345678 was successfully written into ConfirmPassword field.
+21/07/17 16:24:28 INFO pages.BasePage: Registration button was clicked successfully.
+21/07/17 16:24:29 INFO tests.Test_Registration: Test 'Register to BuyMe' passed successfully
+21/07/17 16:24:29 DEBUG freemarker.cache: Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+21/07/17 16:24:29 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+21/07/17 16:24:29 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+21/07/17 16:24:29 DEBUG freemarker.cache: TemplateLoader.findTemplateSource("Extent.ftl"): Found
+21/07/17 16:24:29 DEBUG freemarker.cache: Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Sharon/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

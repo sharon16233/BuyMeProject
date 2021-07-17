@@ -37,7 +37,7 @@ public class Test_Registration extends Utils {
     public void registerToBuyMe() throws Exception {
         //Reports Initiation
         testReporter = extent.startTest("Register to BuyMe");
-        logger.info("Begin test 'register to BuyMe' ...");
+        logger.info("Begin test 'Register to BuyMe'");
 
         //Home page.
         homePage.clickOnEntranceButton();
@@ -61,7 +61,7 @@ public class Test_Registration extends Utils {
         takeSnapShot(driver, "registrationTest_Success");
         logger.info("Test 'Register to BuyMe' passed successfully");
         testReporter.log(LogStatus.PASS, "Register To BuyMe test passed!");
-        testReporter.log(LogStatus.INFO, "Check Screenshot below:"+testReporter.addScreenCapture(dest));
+        testReporter.log(LogStatus.INFO, "Check Screenshot below:" + testReporter.addScreenCapture(dest));
 
     }
 

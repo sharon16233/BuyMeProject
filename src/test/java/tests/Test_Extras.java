@@ -90,7 +90,7 @@ public class Test_Extras extends Utils {
     /**
      * Given: User has entered into the home page of BuyMe.
      * When: User scrolls down.
-     * Then: The page is scrolled down.
+     * Then: The page is scrolled down and a screenshot is taken.
      */
 
     @Test
@@ -104,13 +104,13 @@ public class Test_Extras extends Utils {
         testReporter.log(LogStatus.PASS, "Page scrolled down.");
 
         Utils.takeSnapShot(driver, "ScrollDownSnapShotTestPassed");
-        testReporter.log(LogStatus.INFO, "Check Screenshot below:"+testReporter.addScreenCapture(dest));
+        testReporter.log(LogStatus.INFO, "Check Screenshot below:" + testReporter.addScreenCapture(dest));
         logger.info("Scroll down snapshot test passed successfully!");
     }
 
     /**
      * Given: User has entered into the home page of BuyMe.
-     * When: User goes to Receiver info's page.
+     * When: User goes to gift receiver info's page.
      * Then: Error message and blessing appear.
      */
 
